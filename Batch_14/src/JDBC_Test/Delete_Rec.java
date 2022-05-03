@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class Delete_Rec 
 {
-	private static  final String  query = "delete from employee where emp_id=101;";
+	private static  final String  query = "delete from girish22_data where user_id=101;";
 	private static  final String  db_url="jdbc:mysql://localhost:3306/world?user=root";
 	private static  final String  username ="root";
 	private static  final String  password = "1992";
