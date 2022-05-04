@@ -27,7 +27,6 @@ public class Image_Data_TC01
 			pst.setBinaryStream(2,fin, (int)myFile.length());
 			pst.executeUpdate();
 			System.out.println("Record inserted");
-
 	}
 
 }
